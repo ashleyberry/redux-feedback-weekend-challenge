@@ -1,0 +1,29 @@
+.App {
+  margin-top: 0;
+  text-align: center;
+}
+
+.App-header {
+
+  background-color: #2a9d8f;
+  min-height: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 3em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.input, .displayFeedback {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.welcome {
+  margin-top: 50px;
+}

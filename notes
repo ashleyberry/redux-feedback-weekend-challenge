@@ -1,0 +1,84 @@
+SETUP
+-----
+[x] Create your database and tables using the provided data.sql file.
+[x] npm install
+
+Server SETUP
+-----
+[x] npm run server
+[x] route
+[x] pool
+
+Client SETUP
+-----
+[x] npm run client
+
+ADD NEW FEEDBACK
+-----
+-- Set up App component
+    [x] Connect Router and Routes, Link
+    [x] Import Connect
+    [x] Import axios
+    [x] Create Components: Feeling, Understanding, Supported, Comments, Review, Success
+    [x] Import Components: Feeling, Understanding, Supported, Comments, Review, Success
+    [x] Create Routes for Components: Feeling, Understanding, Supported, Comments, Review, Success
+    [x] Import Connect to all pages needing to dispatch info
+-- Feeling Component
+    [x] Displays Header Component
+    [x] h1 How are you feeling today?
+    [x] REQUIRED number input with "Feeling" label
+    [x] Next button
+        [x] To Understanding Component
+-- Understanding Component
+    [x] Displays Header Component
+    [x] h1 How well are you Understanding the content?
+    [x] REQUIRED number input with "Understanding" label
+    [x] Next button to Supported Component
+-- Supported Component
+    [x] Displays Header Component
+    [x] h1 How well are you being supported?
+    [x] REQUIRED number input with "Support" label
+    [x] Next button to Comments Component
+-- Comments Component
+    [x] Displays Header Component
+    [x] h1 Any comments you want to leave? 
+    [x] text input with "Comments" label
+    [x] Next button to Review Component
+
+THE REVIEW COMPONENT
+-----
+[x] h1 Review Your Feedback
+[x] h2 Feelings:, Understanding:, Support:, Comments:
+[x] Submit button 
+    [x] Submits completed feedback to server
+    [x] Submission saved to db 
+    [x] Redirects user to Success Component
+-- Success Component
+    [x] h1 Feedback!
+    [x] h1 Thank You!
+    [x] Leave New Feedback button to Feeling Component
+        [x] Resets all data -- it's not pretty, but it does the trick.
+
+UPDATE README
+-----
+[x] Update readme
+[x] Include screenshot
+[x] Include gif?
+
+STRETCH GOALS
+-----
+
+--UPDATE SCORES
+    [x] Allow the user to go back to a previous step and change their score. 
+        -- You still need to disallow empty values!
+
+-- STYLING
+    [x] Improve the styling of the app using Material-UI. 
+        -- This might include cards, snackbars, buttons, a nav bar, icons, and/or a theme.
+
+-- ADMIN SECTION
+    [x] Display all of the existing feedback at the route /admin. 
+        [x] The most recently added feedback should appear at the top of the list. 
+        [x] Allow the user to delete existing feedback. 
+        [ ] Prompt the user to confirm prior to deleting the feedback from the database.
+        [ ] Add the ability to flag an existing feedback entry for further review on the /admin view.
