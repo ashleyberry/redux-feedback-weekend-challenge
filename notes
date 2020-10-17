@@ -1,0 +1,53 @@
+SETUP
+-----
+[x] Create your database and tables using the provided data.sql file.
+[x] npm install
+[x] npm run server
+[x] npm run client
+
+ADD NEW FEEDBACK
+-----
+-- Set up App component
+    [x] Connect Router and Routes, Link
+    [x] Import Connect
+    [x] Import axios
+    [x] Create Components: Feeling, Understanding, Supported, Comments, Review, Success
+    [x] Import Components: Feeling, Understanding, Supported, Comments, Review, Success
+    [x] Create Routes for Components: Feeling, Understanding, Supported, Comments, Review, Success
+    [x] Import Connect to all pages needing to dispatch info
+-- Feeling Component
+    [x] Displays Header Component
+    [x] h1 How are you feeling today?
+    [x] required number input with "Feeling" label
+    [x] Next button
+        [x] To Understanding Component
+-- Understanding Component
+    [x] Displays Header Component
+    [x] h1 How well are you Understanding the content?
+    [x] required number input with "Understanding" label
+    [x] Next button to Supported Component
+-- Supported Component
+    [ ] Displays Header Component
+    [ ] h1 How well are you being supported?
+    [ ] required number input with "Support" label
+    [ ] Next button to Comments Component
+-- Comments Component
+    [ ] Displays Header Component
+    [ ] h1 Any comments you want to leave? 
+    [ ] text input with "Comments" label
+    [ ] Next button to Review Component
+
+THE REVIEW COMPONENT
+-----
+[ ] h1 Review Your Feedback
+[ ] h2 Feelings:, Understanding:, Support:, Comments:
+[ ] Submit button 
+    [ ] Submits completed feedback to server
+    [ ] Submission saved to db
+    [ ] Resets all data 
+    [ ] Redirects user to Success Component
+-- Success Component
+    [ ] h1 Feedback!
+    [ ] h1 Thank You!
+    [ ] Leave New Feedback button to Feeling Component
+        [ ] Resets all data
